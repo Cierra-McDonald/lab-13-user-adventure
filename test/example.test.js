@@ -3,16 +3,30 @@
 
 const test = QUnit.test;
 
-test('time to test a function', (expect) => {
+test('the formData function should save user input into localStorage', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = true;
+    const form = new FormData();
+    form.append('name', 'Cierra');
+    form.append('character', 'Lavender Candle');
+    setUser(form);
+
+    const actual = localStorage.getItem('YOGI');
+    const trueActual = JSON.parse(actual);
+
+    const expected = {
+        name: 'Cierra',
+        character :'Lavender Candle', 
+        chakras : 7, 
+        crystals : 0, 
+        completed: {},
+    };
     
     //Act 
     // Call the function you're testing and set the result to a const
-    const actual = false;
+
 
     //Expect
     // Make assertions about what is expected versus the actual result
-    expect.equal(actual, expected);
+    expect.deepEqual(trueActual, expected);
 });

@@ -7,7 +7,7 @@ const vinyasa = {
         top: '89%',
         left: '44%'
     },
-    image: 'monsters.jpg',
+    image: 'vinyasa-quest.png',
     description: `
     As you enter into this space, remember, in vinyasa we allow our breath to guide us through our
     practice.  So...Inhale through your nose, stop at the top as your lungs fill with air,
@@ -55,7 +55,7 @@ const kundalini = {
         top: '17%',
         left: '37%'
     },
-    image: 'dragon.jpg',
+    image: 'kundalini.png',
     audio: 'dragon.wav',
     action: 'dragon-growl.aiff',
     description: ` Kundalini is a rewarding practice that brings several health benefits.  It's challenging
@@ -101,7 +101,7 @@ const yin = {
         left: '5%'
     },
     // prerequisites: ['vinyasa', 'kundalini'],
-    image: 'treasure-chests.png',
+    image: 'yin.png',
     audio: 'treasure-chests.wav',
     action: 'chest-opening.wav',
     description: `Welcome to our yin practice, not as intense or physically demanding as vinyasa or kundalini, but

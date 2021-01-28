@@ -12,11 +12,12 @@ const adventureId = params.get('id');
 const adventures = findById(adventureId, adventure); //findById function takes in an id and an array
 const button = document.createElement('button');
 
-h1.textContent = adventure.title; 
-//put picture here
-p.textContent = adventures.description; 
+h1.textContent = adventures.title; 
 
-img.src = `../assets/${'big-logo.png'}`; 
+p.textContent = adventures.description; 
+console.log(p);
+
+img.src = `../assets/${adventures.image}`; 
 //adventures.image once you have collected your pictures
 //creating a loop that will go through my choices from adventure data.js and create a dynamic form
 
@@ -45,9 +46,10 @@ button.textContent = 'Namaste';
 
 form.appendChild(button);
 
-button.addEventListener('submit', (e) => {
-    e.preventDefault();
+button.addEventListener('submit', (e) => { // I want my namaste button to store user choice in localstorage
+    e.preventDefault(); //prevents default behavior
+    const formData = new FormData(form); //creates the bundle for easy access
 
-    // const formData = new FormData(form);
+    console.log('in the button!');
 
 });
