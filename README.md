@@ -15,10 +15,10 @@ Grab quest data, loop through it, and generate a link for each quest [check]
 
 
 3.) Quest page
-HTML: header, image, paragraph, and a list of radio buttons
--Grab the id of the quest from the URL 
--Use that id to 'findById' that quest in our quest data
--Use the quest to populate the elements of the html
+HTML: header, image, paragraph, and a list of radio buttons [check]
+-Grab the id of the quest from the URL [check]
+-Use that id to 'findById' that quest in our quest data [check]
+-Use the quest to populate the elements of the html [check]
 -On Submit: 
     -Calculate the users new stats (HP and gold)
     -Put the new stats in local storage
