@@ -2,12 +2,12 @@
 1.) Home page 
 HTML: Create a form to accept user data
     On submit: Store the user data in local storage
-    THEN redirect the user to the map/list page
+    THEN redirect the user to the map/list page [check!]
 
 2.) Map/List page 
-HTML: Create a ul to inject quests into 
+HTML: Create a ul to inject quests into [check]
     BEFORE ANYTHING, IF ALL QUESTS ARE COMPLETED, REDIRECT TO THE RESULTS PAGE
-Grab quest data, loop through it, and generate a link for each quest
+Grab quest data, loop through it, and generate a link for each quest [check]
     -if the quest has been completed, cross it out
     -if the quest has not been completed, there should be a link to the correct quest
     if the user has <=0 redirect them 
