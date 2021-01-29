@@ -1,7 +1,8 @@
-// import adventure from '../data.js';
-// import { resultMessage } from '../Results.js';
+import adventure from '../data.js';
+import { resultMessage } from '../Results.js';
+const yogi = JSON.parse(localStorage.getItem('YOGI'));
 
-// const test = QUnit.test;
+const test = QUnit.test;
 
 // test('the formData function should save user input into localStorage', (expect) => {
 //     //Arrange
@@ -31,13 +32,17 @@
 //     expect.deepEqual(trueActual, expected);
 // });
 
-// test('the resultMessage function should return a statement based on the number of chakras left' , (expect) => {
-//     const 
 
-//     expected: -4;
+test('time to test a function', (expect) => {
+    //Arrange
+    // Set up your arguments and expectations
+    const expected = '';
+    
+    //Act 
+    // Call the function you're testing and set the result to a const
+    const actual = resultMessage(-5);
 
-//     actual 
-
-
-//     expect.equal(actual, expected);
-// });
+    //Expect
+    // Make assertions about what is expected versus the actual result
+    expect.equal(actual, expected);
+});

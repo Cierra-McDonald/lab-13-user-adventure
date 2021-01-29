@@ -126,3 +126,28 @@ footer {
     }
 
   }
+  #back-to-map { 
+      border-radius: 3ch;
+      color: blanchedalmond;
+      background-color:green;
+      cursor:grab;
+      transition: .2s linear, 
+  }
+  #back-to-map:hover {
+      color: black;
+
+  }
+  .yoga-story { 
+      color: black;
+      font-weight: bolder;
+  }
+  #life-traker { 
+      margin-top: 50px;
+      margin-right: 50px;
+      border-bottom: blanchedalmond;
+      width: 200px;
+      height: 200px;
+  }
+  .button { 
+      color:cadetblue;
+  }
