@@ -20,8 +20,17 @@ body {
     
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
+    background-image: url('../assets/home-page.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
-
+h2 { 
+    color: #BA5624;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-size: 40px;
+}
 main {
     display: flex;
     flex-direction: column;
@@ -116,4 +125,29 @@ footer {
         transform: rotate3d(10, 10, 10, 50deg) scale(1);
     }
 
+  }
+  #back-to-map { 
+      border-radius: 3ch;
+      color: blanchedalmond;
+      background-color:green;
+      cursor:grab;
+      transition: .2s linear, 
+  }
+  #back-to-map:hover {
+      color: black;
+
+  }
+  .yoga-story { 
+      color: black;
+      font-weight: bolder;
+  }
+  #life-traker { 
+      margin-top: 50px;
+      margin-right: 50px;
+      border-bottom: blanchedalmond;
+      width: 200px;
+      height: 200px;
+  }
+  .button { 
+      color:cadetblue;
   }
