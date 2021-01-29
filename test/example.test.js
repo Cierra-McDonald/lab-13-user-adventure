@@ -1,5 +1,7 @@
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
+import adventure from '../data.js';
+import {  }
 
 const test = QUnit.test;
 

@@ -1,11 +1,8 @@
-// import functions and grab DOM elements
-// const 'YOGI' = YOGI; 
+// const 'YOGI' = 'YOGI'; 
 
 const yogiForm = document.getElementById('form'); //I am puttin my html element in DOM
 
-// initialize state
 
-// set event listeners to update state and DOM
 yogiForm.addEventListener('submit', (e) => { //on submit I am...
     e.preventDefault(); //preventing default behavior
 
@@ -21,6 +18,6 @@ yogiForm.addEventListener('submit', (e) => { //on submit I am...
     const stringyUser = JSON.stringify(userYogi);
     localStorage.setItem('YOGI', stringyUser);
     
-    window.location = '../Map';
+    window.location = '../Map/index.html';
 
 });
