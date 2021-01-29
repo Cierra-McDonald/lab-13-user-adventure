@@ -13,7 +13,7 @@ function resultMessage() {
     if (yogi.chakra <= 0) {
         console.log(yogi);
 
-        return 'You are still working through barrieres and need to practice self-love, acceptance, and peace, don\'t forget to breathe';
+        return `${yogi.nam} are still working through barrieres and need to practice self-love, acceptance, and peace, don\'t forget to breathe`;
     } else {
         return 'You unblocked all 7 chakras, you are living in harmony with thyself, environment and world!';
     }

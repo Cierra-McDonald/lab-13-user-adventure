@@ -7,7 +7,6 @@ yogiForm.addEventListener('submit', (e) => { //on submit I am...
     e.preventDefault(); //preventing default behavior
 
     const formData = new FormData(yogiForm); // making a formData bundle for easy access in the future
-
     const userYogi = { // creating an object of the user input that is put in by the user along with three default values 
         name : formData.get('name'),
         character : formData.get('character'),
